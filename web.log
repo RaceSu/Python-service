@@ -1,0 +1,25 @@
+2016-12-17 14:14:50,989 - [service] - [DEBUG] - |### self.path:/test|
+2016-12-17 14:14:50,989 - [service] - [DEBUG] - |ctype:application/json pdict:{}|
+2016-12-17 14:14:50,989 - [service] - [DEBUG] - |33 data : {'type': ['int_type'], 'pin': ['1']}|
+2016-12-17 14:14:50,990 - [service] - [DEBUG] - | data.get("pin") :['1']|
+2016-12-17 14:14:52,990 - [service] - [INFO] - |deal_request result is: {"pin": 1001} |
+2016-12-17 14:14:53,000 - [service] - [DEBUG] - |### self.path:/test|
+2016-12-17 14:14:53,000 - [service] - [DEBUG] - |ctype:application/json pdict:{}|
+2016-12-17 14:14:53,002 - [service] - [DEBUG] - |33 data : {'type': ['str_type'], 'pin': ['test']}|
+2016-12-17 14:14:53,002 - [service] - [DEBUG] - | data.get("pin") :['test']|
+2016-12-17 14:14:53,002 - [service] - [INFO] - |deal_request result is: {"pin": "Hellotestworld"} |
+2016-12-17 14:14:53,013 - [service] - [DEBUG] - |### self.path:/test|
+2016-12-17 14:14:53,013 - [service] - [DEBUG] - |ctype:application/json pdict:{}|
+2016-12-17 14:14:53,013 - [service] - [DEBUG] - |33 data : {'type': ['list_type'], 'pin': ['5', 'menduzi', '4', '6', 'xingle', '2', '4', '7']}|
+2016-12-17 14:14:53,013 - [service] - [DEBUG] - | data.get("pin") :['5', 'menduzi', '4', '6', 'xingle', '2', '4', '7']|
+2016-12-17 14:14:53,015 - [service] - [INFO] - |deal_request result is: {"pin": "5menduzi46xingle247"} |
+2016-12-17 14:14:53,025 - [service] - [DEBUG] - |### self.path:/test|
+2016-12-17 14:14:53,026 - [service] - [DEBUG] - |ctype:application/json pdict:{}|
+2016-12-17 14:14:53,026 - [service] - [DEBUG] - |33 data : {'type': ['tuple_type'], 'pin': ['1', '2', '3', '4']}|
+2016-12-17 14:14:53,026 - [service] - [DEBUG] - | data.get("pin") :['1', '2', '3', '4']|
+2016-12-17 14:14:53,026 - [service] - [INFO] - |deal_request result is: {"pin": "1234"} |
+2016-12-17 14:14:53,033 - [service] - [DEBUG] - |### self.path:/test|
+2016-12-17 14:14:53,033 - [service] - [DEBUG] - |ctype:application/json pdict:{}|
+2016-12-17 14:14:53,035 - [service] - [DEBUG] - |33 data : {'type': ['dict_type'], 'pin': ['y', 'x']}|
+2016-12-17 14:14:53,035 - [service] - [DEBUG] - | data.get("pin") :['y', 'x']|
+2016-12-17 14:14:53,035 - [service] - [INFO] - |deal_request result is: {"pin": "yx"} |
